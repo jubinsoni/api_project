@@ -7,9 +7,9 @@ coreschema==0.0.4
 coverage==5.3.1
 Django==3.1.5
 django-cors-headers==3.6.0
-djangorestframework==3.12.2
+djangorestframework
+djangorestframework-simplejwt
 djangorestframework-jwt==1.11.0
-djangorestframework-simplejwt==4.6.0
 drf-yasg==1.20.0
 google-api-core==1.25.0
 google-api-python-client==1.12.8
