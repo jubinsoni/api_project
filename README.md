@@ -2,7 +2,7 @@
 
 This repo contains django rest code for backend
 
-follwoing routes are available
+following routes are available
 
 ## auth
 GET ​/auth​/email-verify​/
