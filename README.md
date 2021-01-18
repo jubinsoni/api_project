@@ -50,6 +50,10 @@ DELETE /feedback​/{id}
 
 ## social_auth
 
+Go to google-signin and start a local server by python3 -m http.server 5500
+now go to http://127.0.0.1:5500/ and get token from console
+This token can be now validated using this api
+
 POST /social_auth​/google​/
 (social_auth_google_create)
 
@@ -63,3 +67,15 @@ PUT /user_profile​/
 
 PATCH ​/user_profile​/
 (user_profile_partial_update)
+
+## Running in local
+1) clone this repo
+2) cd to project at the manage.py level
+3) source venv/bin/activate
+4) pip3 install -r requirements.txt
+5) python3 manage.py runserver
+6) go to http://127.0.0.1:8000/ to test out the apis
+
+## Documentation
+This app is configured with swagger and to view it...
+simply go to http://127.0.0.1:8000/
