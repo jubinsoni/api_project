@@ -68,13 +68,14 @@ PUT /user_profile​/
 PATCH ​/user_profile​/
 (user_profile_partial_update)
 
-## Running in local
+## Running locally
 1) clone this repo
 2) cd to project at the manage.py level
 3) source venv/bin/activate
 4) pip3 install -r requirements.txt
-5) python3 manage.py runserver
-6) go to http://127.0.0.1:8000/ to test out the apis
+5) go to core/settings.py and do DEBUG = False
+6) python3 manage.py runserver
+7) go to http://127.0.0.1:8000/ to test out the apis
 
 ## Documentation
 This app is configured with swagger and to view it...
